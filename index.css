@@ -10,9 +10,21 @@ p {
 }
 
 body {
-  background-color: var(--background_color);
+  background-color: var(--background_color) !important;
 }
 
 h1 {
   border-bottom: var(--border_styling);
+}
+
+section .footer .text.bold {
+  font-weight: 700;
+}
+
+section > div > .text {
+  color: yellow;
+}
+
+section + p {
+  color: black;
 }
